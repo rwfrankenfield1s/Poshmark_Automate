@@ -1,0 +1,83 @@
+from pynput.mouse import Button, Controller
+import time
+
+
+mouse = Controller()
+
+
+for c in range(4500):
+    mouse.position = (-755, -47)
+    time.sleep(2)
+    mouse.click(Button.left)
+    time.sleep(4)
+    mouse.position = (-770, 195)
+    time.sleep(2)
+    mouse.click(Button.left)
+    time.sleep(2)
+    mouse.position = (-553, 446)
+    time.sleep(2)
+    mouse.click(Button.left)
+    time.sleep(2)
+    mouse.position = (-1057, -434)
+    time.sleep(2)
+    mouse.click(Button.left)
+    time.sleep(2)
+
+    mouse.position = (-549, -47)
+    time.sleep(2)
+    mouse.click(Button.left)
+    time.sleep(4)
+    mouse.position = (-770, 195)
+    time.sleep(2)
+    mouse.click(Button.left)
+    time.sleep(2)
+    mouse.position = (-553, 446)
+    time.sleep(2)
+    mouse.click(Button.left)
+    time.sleep(2)
+    mouse.position = (-1057, -434)
+    time.sleep(2)
+    mouse.click(Button.left)
+    time.sleep(2)
+
+    mouse.position = (-347, -47)
+    time.sleep(2)
+    mouse.click(Button.left)
+    time.sleep(4)
+    mouse.position = (-770, 195)
+    time.sleep(2)
+    mouse.click(Button.left)
+    time.sleep(2)
+    mouse.position = (-553, 446)
+    time.sleep(2)
+    mouse.click(Button.left)
+    time.sleep(2)
+    mouse.position = (-1057, -434)
+    time.sleep(2)
+    mouse.click(Button.left)
+    time.sleep(2)
+
+    mouse.position = (-138, -47)
+    time.sleep(2)
+    mouse.click(Button.left)
+    time.sleep(4)
+    mouse.position = (-770, 195)
+    time.sleep(2)
+    mouse.click(Button.left)
+    time.sleep(2)
+    mouse.position = (-553, 446)
+    time.sleep(2)
+    mouse.click(Button.left)
+    time.sleep(2)
+    mouse.position = (-1057, -434)
+    time.sleep(2)
+    mouse.click(Button.left)
+    time.sleep(4)
+    
+
+
+    mouse.position = (-700, -50)
+    mouse.scroll(0,-393)
+    time.sleep(5)
+
+
